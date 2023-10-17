@@ -5,11 +5,13 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './components/template-parts/Header/Header';
 import Navigation from './components/template-parts/Navigation/Navigation';
 import Footer from './components/template-parts/Footer/Footer';
+import './components/assets/scss/main.scss';
+
 
 function App() {
     return (
         <Router> {/* <-- Make sure Router wraps your app */}
-            <div id="main-content">
+            <div id="main-content" className="container">
                 <Navigation/>
                 <Header/>
                 <Routes>

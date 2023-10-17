@@ -1,7 +1,12 @@
-#main-content{
-  min-height: 100vh;
-  background-color: lightcyan;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+html, body {
+  background-color: black;
+  overflow-x: hidden;
+
+  #main-content {
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }

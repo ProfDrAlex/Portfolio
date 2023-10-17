@@ -1,11 +1,17 @@
 import React from 'react';
 import './Header.scss';
-import Navigation from '../Navigation/Navigation';
+import {Link, Route} from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header>
-            <h1>Mein Portfolio - Header</h1>
+            <div className="title-container">
+                <h1>Alexander<br />
+                    Düsterbeck, <br />
+                    Web-Entwickler</h1>
+            </div>
+            <Link  to="/Kontakt">Kontakt aufnehmen</Link >
         </header>
     );
 };

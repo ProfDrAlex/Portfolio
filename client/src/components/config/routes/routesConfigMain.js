@@ -1,8 +1,12 @@
 // routesConfig.js
 import Home from '../../pages/Home/Home';
-import Contact from '../../pages/Contact/Contact';
+import Lebenslauf from '../../pages/Lebenslauf/Lebenslauf';
+import FAQ from '../../pages/FAQ/FAQ';
+import Kontakt from '../../pages/Contact/Kontakt';
 
 export const routes = [
     { path: '/', name: 'Home', component: Home },
-    { path: '/contact', name: 'Contact', component: Contact },
+    { path: '/lebenslauf', name: 'Lebenslauf', component: Lebenslauf },
+    { path: '/faq', name: 'FAQ', component: FAQ },
+    { path: '/kontakt', name: 'Kontakt', component: Kontakt },
 ];

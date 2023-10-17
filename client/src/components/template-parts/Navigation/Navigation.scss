@@ -1,7 +1,25 @@
-header {
-  background-color: #333;
-  color: white;
-  h1{
-    margin: 0;
+#main-navigation{
+  margin-top: 15px;
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px 0px;
+    li{
+      list-style: none;
+      a{
+        padding: 10px 25px;
+        position: relative;
+        &.active{
+          border: 1px solid white;
+          border-radius: 25px;
+        }
+      }
+    }
   }
+
 }

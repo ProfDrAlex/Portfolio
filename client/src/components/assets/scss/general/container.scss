@@ -1,0 +1,26 @@
+.container {
+  margin: 0 auto;
+
+  max-width: 1140px;
+
+
+  @include for-mobile {
+    max-width: 100%;
+  }
+
+  @include for-tablet-portrait {
+    max-width: 720px;
+  }
+
+  @include for-tablet-landscape {
+    max-width: 960px;
+  }
+
+  @include for-desktop {
+    max-width: 1140px;
+  }
+
+  @include for-extra-large {
+    max-width: 1720px;
+  }
+}
